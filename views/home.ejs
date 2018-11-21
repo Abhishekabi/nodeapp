@@ -1,0 +1,5 @@
+<% if(!user) {%>
+<p>Welcome to MKS Corp <a href="/login">Login here</a></p>
+<% } else {%>
+<p>Hello ! <%= user.username %> <a href="/profile">View Profile</a></p>
+<% } <%>
